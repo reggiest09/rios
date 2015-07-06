@@ -11,7 +11,7 @@ gem 'pg'
 gem 'rails_12factor'	
 
 end
-
+gem 'stripe', '~> 1.22.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'devise', '~> 3.5.1'
 
@@ -27,12 +27,12 @@ gem 'font-awesome-sass', '~> 4.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'figaro', '~> 1.1.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
