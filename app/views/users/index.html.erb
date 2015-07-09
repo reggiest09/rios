@@ -1,6 +1,9 @@
 <div class="row">
  <div class="col-md-8 col-md-offset-2">
- 	 <ul class="list-unstyled">
+ 	 <h1>Dev Match Community</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+   <ul class="list-unstyled">
     <% @users.each do |user| %>
      <% if user.profile %>
      <li>
@@ -15,8 +18,11 @@
             <%= link_to user do %>
             <h2><%= user.profile.first_name %> <%= user.profile.last_name %></h2> 
             <% end %>       
-            <p><%= user.profile.job_title %>
-
+             
+              <%= user.profile.job_title %> 
+              <% if user.plan_id == 2 %>
+              <span class="label label-danger">PRO</span>
+              <% end %>
           </div>
           </div>
    
