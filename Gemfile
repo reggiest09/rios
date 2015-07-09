@@ -11,7 +11,7 @@ gem 'pg'
 gem 'rails_12factor'	
 
 end
-
+gem 'paperclip', '~> 4.3.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'devise', '~> 3.5.1'
 gem 'stripe', '1.16.1'
